@@ -5,7 +5,7 @@ avatar: https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/head_portrait/1.jpg
 authorLink: huihui-lx.com
 authorAbout: 宝子姐
 authorDesc: 我会永远爱你
-categories: 告白
+categories: 技术
 date: 2021-9-16 19:00
 comments: true
 tags: 
