@@ -83,7 +83,7 @@ deploy:
     # github: git@github.com:honjun/honjun.github.io.git
     # github: https://github.com/honjun/honjun.github.io.git
     coding: https://git.coding.net/hojun/hojun.git
-  branch: master
+  branch: main
 
 # backup
 backup:
@@ -91,8 +91,7 @@ backup:
   message: backup my blog of https:/huihui-lx.com/
   repository:
     # github: https://github.com/honjun/honjun.github.io.git,backup
-    coding: git@github.com:huihui-lx/huihui-lx.github.io.git
-  branch: backup
+    coding: git@github.com:huihui-lx/huihui-lx.github.io.git,backup
 #RSS
 feed:
   type: atom
