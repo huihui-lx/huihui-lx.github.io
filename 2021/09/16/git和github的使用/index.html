@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Category: 技术 | huihui_lx</title>
+  <title itemprop="name">Git和GitHub的使用 | huihui_lx</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -296,171 +296,150 @@
   </div>
 </header>
 
-      
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-  <div class="pattern-attachment-img">
-    <img data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/coding.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Git和GitHub的使用</h1>
+      <p class="entry-census">
+        <span>
+          <a href="huihui-lx.com">
+            <img src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/head_portrait/1.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="huihui-lx.com">huihui-lx</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2021-9-16<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
   </div>
-  <header class="pattern-header ">
-    <h1 class="cat-title">野生技术协会</h1>
-    <span class="cat-des">
-      <p>Geek – Only for Love</p>
-    </span>
-  </header>
-</div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h2 id="Git和GitHub的使用"><a href="#Git和GitHub的使用" class="headerlink" title="Git和GitHub的使用"></a>Git和GitHub的使用</h2><h3 id="常用的git命令"><a href="#常用的git命令" class="headerlink" title="常用的git命令"></a>常用的git命令</h3><pre><code>git init  初始化本地git仓库
+git clone + ssh 克隆
+git status  查看当前状态
+git add xxx  将xxx文件添加到暂存区
+git add .  将当前子目录下所有更改过的文件提交到暂存区
+git commit -m &quot;提交说明&quot;  提交
+
+git remote  列出你指定的每一个远程服务器的简写。 如果你已经克隆了自己的仓库，那么至少应该能看到 origin ——这是 Git 给你克隆的仓库服务器的默认名字： 
+git remote -v  你也可以指定选项 -v，会显示需要读写远程仓库使用的 Git 保存的简写与其对应的 URL。
+git remote add &lt;shortname&gt; &lt;url&gt;  自行添加远程仓库  例如: git remote add origin git@github.com:huihui-lx/Plants-vs-Zombies.git
+git push
+ 1. git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程主机分支名&gt;
+     git push origin master:main
+ 2. git push &lt;远程主机名&gt; &lt;本地分支名&gt;  省略了远程主机分支名, 则git会push与本地分支名相同的远程分支
+     git push origin master 等价于 git push origin master:master
+
+</code></pre><h3 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h3><pre><code> ! [rejected]        master -&gt; main (fetch first)
+原因: github中的README.md文件不在本地代码目录中
+解决方法: git pull --rebase origin master
+</code></pre>
+        </div>
+        <!-- .entry-content -->
+        <!-- <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2021/09/16/C++做题常用STL/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                C++做题常用STL</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2021/08/26/写给宝子姐的一份信/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                写给宝子姐的一封信</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2021/09/16/C++做题常用STL/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2021/09/16/C++做题常用STL/">
-    C++做题常用STL</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2021-9-16</div>
-    <p>
-    忘了就看</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2021/09/16/C++做题常用STL/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2021/09/16/git和github的使用/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2021/09/16/git和github的使用/">
-    Git和GitHub的使用</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2021-9-16</div>
-    <p>
-    使用git和github</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2021/09/16/git和github的使用/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "85AjXxaVoOHrCc6HH6rPOlP1-gzGzoHsz",
+        appKey: "kdgroiisyJbrTLhwxln24rg1",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
 
-
-      <div class="clearer">
-      </div>
-    </main>
-    <!--  -->
-    
-  </div>
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="huihui-lx.com" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/head_portrait/1.jpg" itemprop="image" alt="huihui-lx" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="huihui-lx.com" itemprop="url" rel="author">huihui-lx</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
 
-<!-- 
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2021/09/16/C++做题常用STL/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2021/09/16/C++做题常用STL/">
-    C++做题常用STL</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2021-9-16</div>
-    <p>
-    忘了就看</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2021/09/16/C++做题常用STL/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2021/09/16/git和github的使用/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2021/09/16/git和github的使用/">
-    Git和GitHub的使用</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2021-9-16</div>
-    <p>
-    使用git和github</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2021/09/16/git和github的使用/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
 
- -->
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
