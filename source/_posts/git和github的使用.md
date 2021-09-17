@@ -20,7 +20,10 @@ photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg
 ```
 git init  初始化本地git仓库
 git clone + ssh 克隆
-git status  查看当前状态
+git status  查看当前状态   
+ - 1. 红褐色: 创建之后没有add，没提交，不在版本控制范围之内. 
+ - 2. 绿色：add之后是文件绿色的，没有提交（commit）.
+ - 3. 蓝色：原本有一个文件，改动过后没有提交（commit）是蓝色的，提交之后，变成正常颜色。
 git add xxx  将xxx文件添加到暂存区
 git add .  将当前子目录下所有更改过的文件提交到暂存区
 git commit -m "提交说明"  提交
