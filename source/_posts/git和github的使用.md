@@ -43,6 +43,6 @@ git push
 ```
  ! [rejected]        master -> main (fetch first)
 原因: github中的README.md文件不在本地代码目录中
-解决方法: git pull --rebase origin master
+解决方法: git pull --rebase origin <远程分支名>
 ```
 
