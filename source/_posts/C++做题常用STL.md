@@ -10,7 +10,7 @@ tags:
     - 算法
 keywords: Sakura
 description: 忘了就看
-photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/1.jpg
+photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/article/2.png
 ---
 
 # C++做题常用stl

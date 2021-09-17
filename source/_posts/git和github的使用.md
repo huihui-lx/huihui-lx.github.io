@@ -10,7 +10,7 @@ tags:
     - 算法
 keywords: Sakura
 description: 使用git和github
-photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/1.jpg
+photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/article/1.jpg
 ---
 
 ## Git和GitHub的使用
