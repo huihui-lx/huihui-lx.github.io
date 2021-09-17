@@ -1,7 +1,7 @@
 ---
 title: C++做题常用STL
 author: huihui-lx
-avatar: https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/head_portrait/1.jpg
+avatar: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/head_portrait/1.jpg
 authorLink: huihui-lx.com
 categories: 技术
 date: 2021-9-16 19:00
@@ -10,7 +10,7 @@ tags:
     - 算法
 keywords: Sakura
 description: 忘了就看
-photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg
+photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/1.jpg
 ---
 
 # C++做题常用stl

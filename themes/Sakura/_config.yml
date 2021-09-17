@@ -6,7 +6,7 @@ favicon: /images/favicon.ico
 avatar: /img/head_portrait/1.jpg
 url: https://huihui-lx.com
 description: 双向的奔赴才有意义
-cdn: https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0
+cdn: https://cdn.jsdelivr.net/gh/huihui-lx/cdn
 pjax: 1
 # 1开启
 mathjax: 0
@@ -57,13 +57,13 @@ homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
 
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/1.jpg
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/2.jpg
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/3.png
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/4.jpg
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/5.jpg
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/6.jpg
-  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn@6.0/img/background/7.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/1.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/2.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/3.png
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/4.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/5.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/6.jpg
+  - https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/background/7.jpg
 
 
 
