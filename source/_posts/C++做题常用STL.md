@@ -48,6 +48,8 @@ photos: https://cdn.jsdelivr.net/gh/huihui-lx/cdn/img/article/2.png
    length()/size() //返回字符串长度
    empty() //判断是否为空
    clear() //清空
+   push_back()
+   pop_back()
    substr(起始下标, 子串长度) //返回子串
    c_str() // 返回字符串所在字符数组的起始地址
    to_string(int x) // int 转 string 
