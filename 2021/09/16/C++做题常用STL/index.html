@@ -402,15 +402,13 @@ priority_queue&lt;int, vecotr&lt;int&gt;, greater&lt;int&gt; &gt; heap;
 <p>   //创建队列的时候,三个参数都要显示地指明<br>   priority_queue&lt;int, vector<int>, cmp&gt; heap;</int></p>
 </li>
 </ol>
-<pre><code>  //自定义sort函数
+<pre><code class="C++">  //自定义sort函数
   bool cmp ( int a, int b )
   {
      return a&lt;b;         //返回true,所以a在前面,即降序排列
   }
-</code></pre><pre><code>
-
-
-## stack
+</code></pre>
+<pre><code class="C++">## stack
 
 ```C++
 size()
@@ -418,7 +416,8 @@ empty()
 push() //向栈顶插入元素
 top() //返回栈顶元素
 pop() //弹出栈顶元素
-</code></pre><h2 id="deque"><a href="#deque" class="headerlink" title="deque"></a>deque</h2><ol>
+</code></pre>
+<h2 id="deque"><a href="#deque" class="headerlink" title="deque"></a>deque</h2><ol>
 <li>常用函数</li>
 </ol>
 <pre><code class="c++">size()
